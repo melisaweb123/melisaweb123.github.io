@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffe6f2; /* Fondo rosado suave */
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 95%;
+    max-width: 1100px;
+    margin: auto;
+    background: white; /* Fondo blanco */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.header, .main-content, .side-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.header {
+    align-items: center;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #ff69b4; /* Color rosado para los títulos */
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ccc; /* Color gris claro */
+}
+
+th {
+    background-color: #ff69b4; /* Color rosado para la cabecera de la tabla */
+    color: #fff;
+}
+
+td {
+    background-color: #f9f9f9; /* Fondo gris claro */
+}
+
+label {
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #ff69b4; /* Color rosado */
+}
+
+input, select {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffe6f2; /* Fondo rosado suave */
+    color: #333;
+}
+
+button {
+    padding: 12px 20px;
+    background-color: #ff69b4; /* Botones rosados */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #ff4081; /* Tonalidad diferente para el hover */
+}
+
+.result-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.result-table th, .result-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+.result-table th {
+    background-color: #ff69b4; /* Color rosado para la cabecera de la tabla de resultados */
+    color: white;
+}
+
+.result-table td {
+    background-color: #f9f9f9;
+}
+
+#queryResults {
+    margin-top: 20px;
+}
+
+.query-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.query-buttons button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff69b4; /* Botones rosados */
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.query-buttons button:hover {
+    background-color: #ff4081;
+}
+
+#exportBtn {
+    margin-top: 20px;
+}
